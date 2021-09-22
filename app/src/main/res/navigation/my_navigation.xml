@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.alarmclock.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_adderFragment2"
+            app:destination="@id/adderFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/adderFragment2"
+        android:name="com.example.alarmclock.AdderFragment"
+        android:label="fragment_adder"
+        tools:layout="@layout/fragment_adder" />
+</navigation>

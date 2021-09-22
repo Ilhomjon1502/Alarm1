@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Alarm Clock</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bekor_qilish">BEKOR QILISH</string>
+    <string name="saqlash">SAQLASH</string>
+    <string name="ikta_nuqta">:</string>
+    <string name="d">DU</string>
+    <string name="s">SE</string>
+    <string name="c">CH</string>
+    <string name="p">PA</string>
+    <string name="j">JU</string>
+    <string name="y">YA</string>
+    <string name="budilnik_nomlanishi">Budilnik nomlanishi</string>
+    <string name="hech_qaysi">Hech qaysi</string>
+    <string name="saqlash1">Saqlash</string>
+    <string name="signal_paytida_tebranish">Signal paytida tebranish</string>
+</resources>
